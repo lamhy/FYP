@@ -2,6 +2,6 @@
     "public":"dist",
     "rewrites":[ {
         "sources" : "**",
-        "destinatin" : "/index.html"
+        "destination" : "/index.html"
     }]
 }
