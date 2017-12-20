@@ -32,4 +32,4 @@ jobs:
       - deploy:
           name: Deploying hosting
           command: |
-             node_modules/.bin/firebase deploy --token "1/vw1GoYK58N_nCCmTowTIKbMw7AvMsuJPWyOv1eWj9Pc"
+             node_modules/.bin/firebase deploy --token "1/wWFToWdFrAUjBBc3YZxJK-vYNWe861oCthECID1kuNo"
