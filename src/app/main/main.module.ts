@@ -25,8 +25,8 @@ import { FuseSearchBarModule } from '../core/components/search-bar/search-bar.mo
         FuseNavbarHorizontalComponent,
         FuseToolbarComponent,
         FuseNavbarVerticalToggleDirective,
-        FuseThemeOptionsComponent,
-        FuseQuickPanelComponent
+        FuseThemeOptionsComponent
+        //FuseQuickPanelComponent
     ],
     imports     : [
         SharedModule,
