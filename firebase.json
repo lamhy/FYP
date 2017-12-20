@@ -1,7 +1,23 @@
+// {
+//     "public":"dist",
+//     "rewrites":[ {
+//         "sources" : "**",
+//         "destination" : "/index.html"
+//     }]
+// }
 {
-    "public":"dist",
-    "rewrites":[ {
-        "sources" : "**",
-        "destination" : "/index.html"
-    }]
+    "hosting": {
+        "public": "public",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ],
+        "rewrites": [
+            {
+                "source": "/*/*",
+                "destination": "/index.html"
+            }
+        ]
+    }
 }
