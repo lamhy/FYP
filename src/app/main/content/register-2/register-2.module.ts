@@ -2,18 +2,18 @@ import { NgModule } from '@angular/core';
 import { SharedModule } from '../../../core/modules/shared.module';
 import { RouterModule } from '@angular/router';
 
-import { FuseLogin2Component } from './login-2.component';
+import { FuseRegister2Component } from './register-2.component';
 
 const routes = [
     {
-        path     : 'login-2',
-        component: FuseLogin2Component
+        path     : 'register-2',
+        component: FuseRegister2Component
     }
 ];
 
 @NgModule({
     declarations: [
-        FuseLogin2Component
+        FuseRegister2Component
     ],
     imports     : [
         SharedModule,
@@ -21,7 +21,7 @@ const routes = [
     ]
 })
 
-export class FuseLogin2Module
+export class FuseRegister2Module
 {
 
 }

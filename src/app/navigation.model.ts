@@ -90,7 +90,7 @@ export class NavigationModel
                 'type'    : 'group',
                 'children': [
                     {
-                        'id'   : 'login-v2',
+                        'id'   : 'login',
                         'title': 'Login',
                         'type' : 'item',
                         'icon' : 'person_pin',
@@ -106,7 +106,7 @@ export class NavigationModel
                         'title': 'Register as member',
                         'type' : 'item',
                         'icon' : 'person_add',
-                        'url'  : '/register',
+                        'url'  : '/register-2',
                         // 'badge': {
                         //     'title': 25,
                         //     'bg'   : '#F44336',

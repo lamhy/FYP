@@ -13,6 +13,9 @@ import { FuseConfigService } from './core/services/config.service';
 import { FuseNavigationService } from './core/components/navigation/navigation.service';
 import { FuseSampleModule } from './main/content/sample/sample.module';
 import { TranslateModule } from '@ngx-translate/core';
+import { FuseLogin2Module } from './main/content/login-2/login-2.module';
+import { FuseRegister2Module } from './main/content/register-2/register-2.module';
+
 
 const appRoutes: Routes = [
     {
@@ -34,7 +37,9 @@ const appRoutes: Routes = [
         SharedModule,
         TranslateModule.forRoot(),
         FuseMainModule,
-        FuseSampleModule
+        FuseSampleModule,
+        FuseLogin2Module,
+        FuseRegister2Module
     ],
     providers   : [
         FuseSplashScreenService,
