@@ -1,23 +1,17 @@
-// {
-//     "public":"dist",
-//     "rewrites":[ {
-//         "sources" : "**",
-//         "destination" : "/index.html"
-//     }]
-// }
 {
-    "hosting": {
-        "public": "fyppass",
-        "ignore": [
-            "firebase.json",
-            "**/.*",
-            "**/node_modules/**"
-        ],
-        "rewrites": [
-            {
-                "source": "/*/*",
-                "destination": "/index.html"
-            }
-        ]
-    }
+  
+  "hosting": {
+    "public": "yes",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
 }
