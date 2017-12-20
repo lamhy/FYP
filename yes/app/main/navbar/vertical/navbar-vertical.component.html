@@ -1,0 +1,21 @@
+<div class="navbar-header">
+
+    <div class="logo">
+        <!-- <img class="logo-icon" src="assets/images/logos/fuse.svg"> -->
+        <span class="logo-text">PASS</span>
+    </div>
+
+    <button mat-button class="toggle-button-navbar mat-icon-button" fuseNavbarVertical="toggleFold" fxHide.lt-lg>
+        <mat-icon>menu</mat-icon>
+    </button>
+
+    <button mat-button class="toggle-button-navbar mat-icon-button" fuseNavbarVertical="closeBar" fxHide.gt-md>
+        <mat-icon>arrow_back</mat-icon>
+    </button>
+
+</div>
+
+<div class="navbar-content" fusePerfectScrollbar>
+     <!-- <a mat-button href="../login-2">- Login</a> -->
+    <fuse-navigation layout="vertical"></fuse-navigation>
+</div>
