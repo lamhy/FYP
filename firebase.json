@@ -10,7 +10,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/app/main/content/sample/sample.component.html"
+        "destination": "/index.html"
       }
     ]
   }
