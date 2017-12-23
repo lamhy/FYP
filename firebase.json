@@ -9,8 +9,8 @@
     ],
     "rewrites": [
       {
-        "source": "**",
-        "destination": "/index.html"
+        "source": "/index.html",
+        "destination": "/app/main/content/sample/sample.component.html"
       }
     ]
   }
